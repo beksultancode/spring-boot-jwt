@@ -1,2 +1,7 @@
-package springbootjwt;public record AuthResponse() {
+package springbootjwt;
+
+import lombok.Builder;
+
+@Builder
+public record AuthResponse(String token) {
 }
